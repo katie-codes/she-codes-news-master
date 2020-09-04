@@ -9,8 +9,8 @@ from django.dispatch import receiver
 
 
 class CustomUser(AbstractUser):
-    first_name = models.CharField(max_length=200)
-    last_name = models.CharField(max_length=200)
+    first_name = models.CharField(max_length=50)
+    last_name = models.CharField(max_length=50)
     about_me = models.TextField(default='')
     profile_picture = models.ImageField(upload_to='images/', null=True, blank=True,) 
 

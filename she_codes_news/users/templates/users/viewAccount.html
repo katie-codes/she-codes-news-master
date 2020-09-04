@@ -24,20 +24,21 @@
 <div>
     <h3>Your Details</h3>
 <form>
+
 <ul>
     <li>Username:  {{ object.username }}</li>
     <br>
     <li>Email:  {{ object.email}}</li>
     <br>
     <li>About me:  {{ user.about_me}}</li>
+    <br>
+    <button class="button-styles" formaction="{% url 'users:changeAccount' pk=request.user.pk %}">Update your profile details here</button>
 
 </form>
 </div>
 
 <div>
-<form>
-    <button class="button-styles" formaction="{% url 'users:changeAccount' pk=request.user.pk %}">Update your profile details here</button>
-  </form>
+
 
 </div>
 

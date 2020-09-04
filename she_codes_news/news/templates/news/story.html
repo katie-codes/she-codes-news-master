@@ -11,7 +11,7 @@
 <div id="story-wrapper">
     <h2>{{ story.title }}</h2>
     <h4>{{ story.author.first_name }} {{ story.author.last_name }}</h4>
-    <h4 class=callout> {{ story.pub_date|naturaltime }}</h4>
+    <h4> {{ story.pub_date|naturaltime }}</h4>
 
     <div id="story-content">
     <img src='../media/{{ story.main_image }}'>

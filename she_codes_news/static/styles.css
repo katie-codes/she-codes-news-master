@@ -52,7 +52,7 @@ h4 {
 }
 
 h5 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin: 0;
     line-height: 1.5;
     opacity: 80%;
@@ -109,8 +109,11 @@ a, p {
 form {
     padding: 20px;
     background-color: white;
+    display: table;
 
 }
+label { display: table-cell; }
+input { display: table-cell; }
 
 #id_title {
     min-width: 300px;
@@ -141,3 +144,4 @@ form {
 form {
     background-color: #cec9e4;
 }
+
