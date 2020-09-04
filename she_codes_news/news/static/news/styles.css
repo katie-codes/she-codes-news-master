@@ -97,3 +97,9 @@
     padding-right: 20px;
     text-decoration-color: white;
 }
+
+#footer {
+    flex-basis: auto;
+    align-items: flex-end;
+    justify-content: end;
+}
