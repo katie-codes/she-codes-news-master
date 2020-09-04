@@ -61,9 +61,8 @@ h5 {
     color: white;
     font-variant-caps: all-petite-caps;
     padding: 5px;
-    text-align: center;
     letter-spacing: 2px;
-
+    text-align: right;
 }
 
 h6 {

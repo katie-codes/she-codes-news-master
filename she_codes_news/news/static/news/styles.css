@@ -77,25 +77,21 @@
 
 #story-content {
     text-align: justify;
-    flex-wrap: wrap;
 }
 
 #story-content img {
     float: right;
-    margin: 0 0 10px 10px;
+    /* margin: 0 0 10px 10px; */
     width: 50%;
-    position: relative;
-    padding: 20px;
-    object-fit: cover;
-
 }
 
 
 #cats {
     background-color: #ee3772;
     float: right;
-    padding-right: 20px;
+    text-align: center;
     text-decoration-color: white;
+    flex-wrap: wrap;
 }
 
 #footer {
