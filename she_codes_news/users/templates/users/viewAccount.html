@@ -1,0 +1,44 @@
+
+
+{% extends 'base.html' %}
+{% block content %}
+
+<h2>Your Account</h2>
+
+<br>
+
+<h3>Hi {{ object.first_name }}</h3>
+<img src= "{{ user.profile_picture.url }}"> 
+
+
+<form>
+  <p>Thanks for coming back to SheCodesNews. A place to share your experiences, learning and other fun things like 'Cats' and 'Cupcakes' with all the other SheCodes Cohorts.</p>
+
+    <button class="button-styles" formaction="{% url 'news:newStory' %}">Write New Story</button>
+  </form>
+
+
+
+<br>
+<br>
+<div>
+    <h3>Your Details</h3>
+<form>
+<ul>
+    <li>Username:  {{ object.username }}</li>
+    <br>
+    <li>Email:  {{ object.email}}</li>
+    <br>
+    <li>About me:  {{ user.about_me}}</li>
+
+</form>
+</div>
+
+<div>
+<form>
+    <button class="button-styles" formaction="{% url 'users:changeAccount' pk=request.user.pk %}">Update your profile details here</button>
+  </form>
+
+</div>
+
+{% endblock %}
