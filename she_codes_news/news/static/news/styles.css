@@ -86,6 +86,7 @@
     width: 50%;
     position: relative;
     padding: 20px;
+    object-fit: cover;
 
 }
 

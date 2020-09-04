@@ -14,10 +14,14 @@
 
     <div id="story-content">
     <img src='../media/{{ story.main_image }}'>
-    <h4>{{ story.main_content }}</h4>
+    <h6>{{ story.main_content }}</h6>
 
         <!-- {{ story.content|linebreaks }} -->
     </div>
+ 
+<br>
+<br>
+<br>
 
     <form>
         <button class="button-styles" formaction="{% url 'users:author' pk=story.author.pk %}">See other stories by {{ story.author.first_name }} {{ story.author.last_name }}</button>

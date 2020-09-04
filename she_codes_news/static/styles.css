@@ -46,6 +46,8 @@ h4 {
     padding-top: 10px;
     font-family: monospace;
 
+    
+
 
 }
 
@@ -63,6 +65,22 @@ h5 {
     letter-spacing: 2px;
 
 }
+
+h6 {
+    font-size: 1rem;
+    margin: 0;
+    line-height: 1.5;
+    opacity: 60%;
+    padding-top: 10px;
+    font-family: monospace;
+
+
+}
+
+
+
+
+
 
 #header-text {
     flex-basis: 80%;
