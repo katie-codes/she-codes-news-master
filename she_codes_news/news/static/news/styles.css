@@ -77,13 +77,18 @@
 
 #story-content {
     text-align: justify;
+    flex-wrap: wrap;
 }
 
 #story-content img {
     float: right;
     margin: 0 0 10px 10px;
     width: 50%;
+    position: relative;
+    padding: 20px;
+
 }
+
 
 #cats {
     background-color: #ee3772;
